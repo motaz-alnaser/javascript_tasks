@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="task1js.js"></script>
+  </head>
+  <body>
+    <script>
+      let opreation = prompt("Enter the opreation you want to perform");
+      let num1 = Number(prompt("Enter the first number1"));
+      let num2 = Number(prompt("Enter the second number2"));
+      switch (opreation) {
+        case "+":
+          console.log(num1 + num2);
+          break;
+        case "-":
+          console.log(num1 - num2);
+          break;
+        case "*":
+          console.log(num1 * num2);
+          break;
+        case "/":
+          console.log(num1 / num2);
+          break;
+        default:
+          console.log("Invalid opreation");
+      }
+    </script>
+  </body>
+</html>
